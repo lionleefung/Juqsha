@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0000000">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:paddingBottom="30dp" >
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/likepop_pingxingtu" >
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/close_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/likepop_close_btn" >
+        </ImageButton>
+
+        <LinearLayout
+            android:id="@+id/stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/banner"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/star"
+                style="@style/star"
+                android:background="@drawable/likepop_fivestar_anim" >
+            </ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stars"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:textSize="14sp"
+            android:textColor="#000000" >
+        </TextView>
+
+        <Button
+            android:id="@+id/fivestar"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/pop_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/likepop_inner_five_btn"
+            android:text="@string/like_fivestar"
+            android:textColor="#ffffff" >
+        </Button>
+
+        <Button
+            android:id="@+id/unlike"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/fivestar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/likepop_inner_unlike_btn"
+            android:text="@string/like_unliker"
+            android:textColor="#000000" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

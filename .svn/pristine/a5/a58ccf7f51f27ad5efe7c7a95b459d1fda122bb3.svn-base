@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Halo, anda boleh %s meninggalkan mesej. Kami akan membalas anda secepat mungkin.</string>
+    <string name="default_reply">Terima kasih atas maklum balas anda, kami akan membalas anda secepat mungkin.</string>
+    <string name="network_error">Ralat rangkaian, sila cuba lagi!</string>
+    <string name="title">Maklumbalas</string>
+</resources>

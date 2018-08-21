@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Привет, вы можете %s оставить сообщение. Мы ответим вам как можно скорее.</string>
+    <string name="default_reply">Спасибо за ваши отзывы, мы ответим вам как можно скорее.</string>
+    <string name="network_error">Ошибка сети, повторите попытку!</string>
+    <string name="title">обратная связь</string>
+</resources>

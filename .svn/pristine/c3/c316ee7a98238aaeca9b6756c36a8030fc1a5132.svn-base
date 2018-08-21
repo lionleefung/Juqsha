@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">Tilbakemelding</string>
+    <string name="default_hello">Hei, du kan %s legge igjen en melding. Vi svarer deg så snart som mulig.</string>
+    <string name="default_reply">Takk for din tilbakemelding, vi vil svare deg så snart som mulig.</string>
+    <string name="network_error">Nettverksfeil, prøv igjen!</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Advertisement</string>
+	
+	<string name="feedback">Feedback</string>
+    <string name="feedback_content_hint">Your feedback will help us make improvements!</string>
+    <string name="feedback_email_hint">Your Email(optional)</string>
+    <string name="feedback_email_address">You can also email at: gzyappservice@gmail.com</string>
+    <string name="like_text_under_star"> Do you like %s?Loving it!</string>
+    <string name="like_fivestar">A 5-star rating</string>
+    <string name="like_unliker">Dislike</string>
+
+    <string name="title">Feedback</string>
+    <string name="default_hello">Hi, we are %s app developers. Questions or suggestions about the app  can leave a message here, we will reply you as soon as possible ~</string>
+    <string name="default_reply">We have received your feedback. We will deal with it as soon as possible, thank you for your support.</string>
+    <string name="network_error">Network error, please retry!</string>
+</resources>

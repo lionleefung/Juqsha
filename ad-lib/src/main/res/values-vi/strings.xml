@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">Phản hồi</string>
+    <string name="default_hello">Xin chào, bạn có %s thể để lại tin nhắn. Chúng tôi sẽ trả lời bạn sớm nhất có thể.</string>
+    <string name="default_reply">Cảm ơn phản hồi của bạn, chúng tôi sẽ trả lời bạn sớm nhất có thể.</string>
+    <string name="network_error">Lỗi mạng, vui lòng thử lại!</string>
+</resources>

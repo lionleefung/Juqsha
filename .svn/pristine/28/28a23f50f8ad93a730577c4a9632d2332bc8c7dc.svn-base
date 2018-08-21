@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_dialog">
+    <TextView
+        android:id="@+id/title_back_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="@string/warning"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sure2exit"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/message_back_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/once_whole_life_back"
+        android:textSize="14dp"
+        android:gravity="left"
+        android:textColor="#333333"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="15dp"/>
+    <Button
+        android:id="@+id/no_back_dialog"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_zongse"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/goon"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginBottom="1dp"/>
+    <Button
+        android:id="@+id/yes_back_dialog"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_white"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/exit"
+        android:layout_marginTop="5dp"
+        android:textColor="#333333"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+

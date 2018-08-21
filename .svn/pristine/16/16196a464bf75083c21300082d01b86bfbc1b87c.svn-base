@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">您好，我們是%s的開發者。有關應用的問題或者建議都可以留言，我們會盡快回复您~</string>
+    <string name="default_reply">我們已經收到您的反饋。 我們會盡快處理，謝謝您的支持。</string>
+    <string name="network_error">網絡錯誤，請重試！</string>
+    <string name="title">意見反饋</string>
+</resources>

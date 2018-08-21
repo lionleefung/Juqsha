@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">意见反馈</string>
+    <string name="default_hello">您好，我们是%s的开发者。有关应用的问题或者建议都可以留言，我们会尽快回复您~</string>
+    <string name="default_reply">您好，我们已经收到您的反馈。我们会尽快处理，感谢您的支持。</string>
+    <string name="network_error">网络错误，请重试！</string>
+</resources>

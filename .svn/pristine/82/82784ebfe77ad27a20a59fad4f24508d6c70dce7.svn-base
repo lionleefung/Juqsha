@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.google.android.gms.ads.formats.NativeAppInstallAdView
+        android:id="@+id/ga_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/juben_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/home_title"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/guanggao"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/ga_ad_bg"
+            android:layout_width="match_parent"
+            android:layout_height="191.5dp"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="16">
+
+                <ImageView
+                    android:id="@+id/appinstall_app_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/appinstall_app_icon"
+                    android:layout_toRightOf="@id/appinstall_app_icon"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/appinstall_headline"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/appinstall_app_icon"
+                    android:layout_toRightOf="@id/appinstall_app_icon">
+
+                    <Button
+                        android:id="@+id/appinstall_call_to_action"
+                        android:layout_width="90dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/shape_orange"
+                        android:gravity="center"
+                        android:text="Install Now"
+                        android:textColor="#72ca47"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.gms.ads.formats.NativeAppInstallAdView>
+
+</RelativeLayout>

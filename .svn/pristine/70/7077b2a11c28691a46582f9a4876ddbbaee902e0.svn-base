@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">안녕하세요, 메시 %s지를 남길 수 있습니다. 최대한 빨리 회신 해 드리겠습니다.</string>
+    <string name="default_reply">귀하의 의견에 감사 드리며 가능한 한 빨리 답변 드리겠습니다.</string>
+    <string name="network_error">네트워크 오류입니다. 다시 시도하십시오!</string>
+    <string name="title">피드백</string>
+</resources>

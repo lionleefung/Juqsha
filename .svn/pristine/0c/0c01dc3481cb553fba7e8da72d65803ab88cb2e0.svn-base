@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Murder Mystery Games</string>
+    <string name="character">characters</string>
+    <string name="choose">Choose a character</string>
+    <string name="choose_one">Please choose a character</string>
+    <string name="chufa">Yes</string>
+    <string name="default_hello">Hi, we are %s app developers. Questions or suggestions about the app  can leave a message here, we will reply you as soon as possible ~</string>
+    <string name="default_reply">We have received your feedback. We will deal with it as soon as possible, thank you for your support.</string>
+    <string name="exit">Exit</string>
+    <string name="fankui">Feedback</string>
+    <string name="goon">Stay</string>
+    <string name="guanggao">Disappeared Mysterious Island</string>
+    <string name="invite">Invite your friends</string>
+    <string name="network_error">Network error, please retry!</string>
+    <string name="nextpage">Nextpage</string>
+    <string name="nochufa">No</string>
+    <string name="ok">OK</string>
+    <string name="once_whole_life">Do not reveal your script to others. Let others enjoy mystery</string>
+    <string name="once_whole_life_back">Do not reveal the script to others. Let others enjoy mystery</string>
+    <string name="rate">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="share_1">Imperial Hotel\'s Headline singer is found dead in her bath. Who killed her at this vital moment?</string>
+    <string name="share_2">The biggest heart-throb in movies was gunned down in his Mansion in Beverley Hills. Who\'s the killer?</string>
+    <string name="share_3">This is a murder mystery party to investigate the death of Heavy Metal icon "Tarantula"</string>
+    <string name="share_4">The evening unfolds at Silver Dollar Saloon as celebrations begin</string>
+    <string name="share_shouye">A murder happened. Hurry up and find who is the killer</string>
+    <string name="sure2exit">Are you sure to exit？</string>
+    <string name="text">Murder Mystery</string>
+    <string name="title">Feedback</string>
+    <string name="undo">Cancel</string>
+    <string name="uppage">Uppage</string>
+    <string name="warning">Warnings</string>
+    <string name="zihao">Size of reading materials</string>
+</resources>

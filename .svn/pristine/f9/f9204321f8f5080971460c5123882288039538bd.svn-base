@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Hallo, u kunt %s een bericht achterlaten. We zullen u zo snel mogelijk antwoorden.</string>
+    <string name="default_reply">Bedankt voor uw feedback, we zullen u zo snel mogelijk antwoorden.</string>
+    <string name="network_error">Netwerkfout, probeer het opnieuw!</string>
+    <string name="title">Terugkoppeling</string>
+</resources>

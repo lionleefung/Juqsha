@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fb_user_setting_bg">#CFCFCF</color>
+    <color name="fb_master_color">#ff1da0f8</color>
+    <color name="fb_bg_color_normal">#FFFFFF</color>
+    <color name="fb_bg_color_pressed">#fff5f5f5</color>
+    <color name="fb_divider_color">#ffe5e5e5</color>
+    <color name="feedback">#ffffff</color>
+
+</resources>

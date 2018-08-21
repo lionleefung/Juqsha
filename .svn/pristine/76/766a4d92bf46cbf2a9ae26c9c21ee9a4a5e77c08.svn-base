@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">Feedback</string>
+    <string name="default_hello">Hej, du kan %s efterlade en besked. Vi vil svare dig så hurtigt som muligt.</string>
+    <string name="default_reply">Tak for din tilbagemelding, vi vil svare dig så hurtigt som muligt</string>
+    <string name="network_error">Netværksfejl, prøv igen!</string>
+</resources>

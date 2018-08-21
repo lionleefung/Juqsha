@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Γεια σας, μπορείτε %s να αφήσετε ένα μήνυμα. Θα σας απαντήσουμε το συντομότερο δυνατό.</string>
+    <string name="default_reply">Ευχαριστούμε για τα σχόλιά σας, θα σας απαντήσουμε το συντομότερο δυνατό.</string>
+    <string name="network_error">Σφάλμα δικτύου, δοκιμάστε ξανά!</string>
+    <string name="title">Ανατροφοδότηση</string>
+</resources>

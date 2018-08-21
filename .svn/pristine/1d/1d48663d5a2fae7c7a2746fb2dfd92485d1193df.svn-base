@@ -1,0 +1,127 @@
+// Generated code from Butter Knife. Do not modify!
+package lightcone.com.pack.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+import lightcone.com.pack.R;
+
+public class SettingActivity_ViewBinding implements Unbinder {
+  private SettingActivity target;
+
+  private View view2131165236;
+
+  private View view2131165359;
+
+  private View view2131165291;
+
+  private View view2131165285;
+
+  private View view2131165273;
+
+  private View view2131165447;
+
+  @UiThread
+  public SettingActivity_ViewBinding(SettingActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public SettingActivity_ViewBinding(final SettingActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.back_setting, "field 'backSetting' and method 'onViewClicked'");
+    target.backSetting = Utils.castView(view, R.id.back_setting, "field 'backSetting'", ImageView.class);
+    view2131165236 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.ping_xing, "field 'pingXing' and method 'onViewClicked'");
+    target.pingXing = Utils.castView(view, R.id.ping_xing, "field 'pingXing'", LinearLayout.class);
+    view2131165359 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.fen_xiang, "field 'fenXiang' and method 'onViewClicked'");
+    target.fenXiang = Utils.castView(view, R.id.fen_xiang, "field 'fenXiang'", LinearLayout.class);
+    view2131165291 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.fan_kui, "field 'fanKui' and method 'onViewClicked'");
+    target.fanKui = Utils.castView(view, R.id.fan_kui, "field 'fanKui'", LinearLayout.class);
+    view2131165285 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.degrade, "field 'degrade' and method 'onViewClicked'");
+    target.degrade = Utils.castView(view, R.id.degrade, "field 'degrade'", ImageView.class);
+    view2131165273 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.text = Utils.findRequiredViewAsType(source, R.id.text, "field 'text'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.upgrade, "field 'upgrade' and method 'onViewClicked'");
+    target.upgrade = Utils.castView(view, R.id.upgrade, "field 'upgrade'", ImageView.class);
+    view2131165447 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    SettingActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.backSetting = null;
+    target.pingXing = null;
+    target.fenXiang = null;
+    target.fanKui = null;
+    target.degrade = null;
+    target.text = null;
+    target.upgrade = null;
+
+    view2131165236.setOnClickListener(null);
+    view2131165236 = null;
+    view2131165359.setOnClickListener(null);
+    view2131165359 = null;
+    view2131165291.setOnClickListener(null);
+    view2131165291 = null;
+    view2131165285.setOnClickListener(null);
+    view2131165285 = null;
+    view2131165273.setOnClickListener(null);
+    view2131165273 = null;
+    view2131165447.setOnClickListener(null);
+    view2131165447 = null;
+  }
+}

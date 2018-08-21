@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Merhaba, bir mesaj %s bırakabilirsiniz. Size en kısa zamanda cevap vereceğiz.</string>
+    <string name="default_reply">Görüşleriniz için teşekkür ederiz, size en kısa zamanda cevap vereceğiz.</string>
+    <string name="network_error">Ağ hatası, lütfen tekrar deneyin!</string>
+    <string name="title">Geribesleme</string>
+</resources>

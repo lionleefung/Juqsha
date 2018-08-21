@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Hej, du kan %s lämna ett meddelande. Vi kommer att svara dig så snart som möjligt.</string>
+    <string name="default_reply">Tack för din feedback, vi kommer att svara dig så snart som möjligt.</string>
+    <string name="network_error">Nätverksfel, försök igen!</string>
+    <string name="title">Feedback</string>
+</resources>

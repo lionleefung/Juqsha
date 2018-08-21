@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">剧本杀</string>
+    <string name="once_whole_life">本游戏为一生只能玩一次游戏系列，\n为保证游戏乐趣，自拿到剧本到游戏\n结束，请勿将剧本内容透露给别人！</string>
+    <string name="once_whole_life_back">（为保证游戏乐趣，自拿到剧本到游戏\n结束，请勿将剧本内容透露\n给别人。）</string>
+    <string name="share_shouye">下载剧情杀角色助手，还原案件的事发经过，到底凶手会是谁?</string>
+    <string name="share_jubenye">【某一剧情的标题】 下载剧情杀角色助手，还原案件的事发经过，到底凶手会是谁?</string>
+    <string name="warning">提示</string>
+    <string name="ok">好的</string>
+    <string name="sure2exit">确定退出重新选择角色吗？</string>
+    <string name="goon">继续剧情</string>
+    <string name="exit">退出</string>
+    <string name="choose">选择角色</string>
+    <string name="choose_one">请选择一个角色</string>
+    <string name="invite">邀请好友加入</string>
+    <string name="rate">评星</string>
+    <string name="share">分享</string>
+    <string name="fankui">反馈</string>
+    <string name="zihao">阅读材料字号</string>
+    <string name="type">封闭</string>
+    <string name="uppage">上一页</string>
+    <string name="nextpage">下一页</string>
+    <string name="undo">取消</string>
+    <string name="guanggao">消失的神秘岛</string>
+    <string name="chufa">触发</string>
+    <string name="nochufa">不触发</string>
+    <string name="text">剧本杀</string>
+</resources>

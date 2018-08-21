@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lucktracy.storygame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="lightcone.com.pack.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.lucktracy.storygame.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="lightcone.com.pack.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lightcone.com.pack.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.JubenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.RoleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.MyRoleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.ImformationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.ImformationRoleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lightcone.com.pack.activity.MyRole2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lightcone.ad.AdActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.lightcone.feedback.FeedbackActivity" /> <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.facebook.ads.InterstitialAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" /> <!-- This meta-data tag is required to use AppLovin. -->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="phaab_x38JMkA3RQukQR08luRTqVAk-zPTX0TS4hmQPxTsMMaooawWSL_Hs90r7POfQx6Udtw1pOu9lSyW2s2V" />
+
+        <activity
+            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb_user_setting_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/feedback_title_bar" />
+
+    <View android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/fb_sector_divider_background"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/feedback_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fb_bg_preference"
+                android:gravity="top"
+                android:hint="@string/feedback_content_hint"
+                android:imeOptions="flagNoExtractUi"
+                android:minLines="5"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:textColor="#ff999999"
+                android:textColorHint="#ffd3d3d3"
+                android:textSize="13sp" />
+
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/fb_sector_divider_background"/>
+
+            <EditText
+                android:id="@+id/feedback_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fb_bg_preference"
+                android:hint="@string/feedback_email_hint"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="#ff999999"
+                android:textColorHint="#ffd3d3d3"
+                android:textSize="13sp" />
+
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/fb_sector_divider_background"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:background="#ffeeeeee" >
+
+                <TextView
+                    android:id="@+id/feedback_email_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="email"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="@string/feedback_email_address"
+                    android:textColor="#ff999999"
+                    android:textColorLink="@color/fb_master_color"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Hi, we are %s app developers. Questions or suggestions about the app  can leave a message here, we will reply you as soon as possible ~</string>
+    <string name="default_reply">We have received your feedback. We will deal with it as soon as possible, thank you for your support.</string>
+    <string name="network_error">Network error, please retry!</string>
+    <string name="title">Feedback</string>
+</resources>

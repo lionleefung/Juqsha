@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Ciao, puoi lasciare %s un messaggio. Ti risponderemo al più presto.</string>
+    <string name="default_reply">Grazie per il tuo feedback, ti risponderemo il prima possibile.</string>
+    <string name="network_error">Errore di rete, riprovare!</string>
+    <string name="title">Feedback</string>
+</resources>

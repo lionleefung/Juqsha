@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">ผลตอบรับ</string>
+    <string name="default_hello">สวัสดีคุณสามาร %sถฝากข้อความได้ เราจะตอบกลับคุณโดยเร็วที่สุด</string>
+    <string name="default_reply">ขอบคุณสำหรับความคิดเห็นของคุณเราจะตอบกลับคุณโดยเร็วที่สุด</string>
+    <string name="network_error">ข้อผิดพลาดเกี่ยวกับเครือข่ายโปรดลองอีกครั้ง!</string>
+</resources>

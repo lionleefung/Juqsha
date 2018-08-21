@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_dialog">
+    <TextView
+        android:id="@+id/title_select_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="@string/warning"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/message_select_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/once_whole_life"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:id="@+id/yes_select_dialog"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_zongse"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+

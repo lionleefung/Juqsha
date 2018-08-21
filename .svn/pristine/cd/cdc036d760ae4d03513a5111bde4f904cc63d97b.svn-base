@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Halo, Anda dapat %s meninggalkan pesan. Kami akan membalasnya sesegera mungkin.</string>
+    <string name="default_reply">Terima kasih atas masukan Anda, kami akan membalas Anda sesegera mungkin.</string>
+    <string name="network_error">Kesalahan jaringan, coba lagi!</string>
+    <string name="title">Umpan balik</string>
+</resources>

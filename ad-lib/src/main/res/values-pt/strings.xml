@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">Comentários</string>
+    <string name="default_hello">Olá, você pode %s deixar uma mensagem. Nós responderemos o quanto antes.</string>
+    <string name="default_reply">Obrigado pelo seu feedback, nós responderemos o mais rápido possível.</string>
+    <string name="network_error">Erro de rede, tente novamente!</string>
+</resources>

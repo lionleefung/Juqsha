@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_hello">Hei, voit jättää %s viestin. Vastaamme sinulle mahdollisimman pian.</string>
+    <string name="default_reply">Kiitos palautteestasi, vastaamme sinulle mahdollisimman pian.</string>
+    <string name="network_error">Verkkovirhe, yritä uudelleen!</string>
+    <string name="title">Palaute</string>
+</resources>
